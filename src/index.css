@@ -1,0 +1,116 @@
+/* Project styles (plain CSS to avoid @apply issues) */
+.todo-card {
+	max-width: 672px; /* approx max-w-2xl */
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3rem;
+	background: #ffffff;
+	box-shadow: 0 10px 15px -3px rgba(15,23,42,0.1), 0 4px 6px -4px rgba(15,23,42,0.05);
+	border-radius: 0.5rem;
+	padding: 1.5rem;
+}
+
+.todo-input {
+	width: 100%;
+	padding: 0.75rem;
+	border: 1px solid #e6edf3;
+	border-radius: 0.375rem;
+	outline: none;
+}
+.todo-input:focus {
+	box-shadow: 0 0 0 4px rgba(99,102,241,0.08);
+	border-color: #6366f1;
+}
+
+.todo-item-done {
+	text-decoration: line-through;
+	color: #94a3b8;
+}
+
+.todo-item {
+	background: linear-gradient(135deg, #ecfdf3 0%, #fff1f7 100%);
+}
+
+.tagline {
+	font-size: 0.875rem;
+	color: #be185d;
+	background: #ffe4ef;
+	padding: 0.3rem 0.65rem;
+	border-radius: 9999px;
+	border: 1px solid #fbcfe8;
+}
+
+#todo {
+	list-style: none;
+	padding-left: 0;
+	margin-top: 0.75rem;
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+}
+
+.btn-primary {
+	background: #6366f1;
+	color: #fff;
+	padding: 0.5rem 1rem;
+	border-radius: 0.375rem;
+	border: none;
+}
+.btn-primary:hover { background: #4f46e5; }
+
+.btn-danger {
+	background: #ef4444;
+	color: #fff;
+	padding: 0.25rem 0.75rem;
+	border-radius: 0.375rem;
+	border: none;
+}
+.btn-danger:hover { background: #dc2626; }
+
+.btn-edit {
+	background: #0ea5e9;
+	color: #fff;
+	padding: 0.25rem 0.75rem;
+	border-radius: 0.375rem;
+	border: none;
+}
+.btn-edit:hover { background: #0284c7; }
+
+.btn-success {
+	background: #16a34a;
+	color: #fff;
+	padding: 0.25rem 0.75rem;
+	border-radius: 0.375rem;
+	border: none;
+}
+.btn-success:hover { background: #15803d; }
+
+.btn-secondary {
+	background: #64748b;
+	color: #fff;
+	padding: 0.25rem 0.75rem;
+	border-radius: 0.375rem;
+	border: none;
+}
+.btn-secondary:hover { background: #475569; }
+
+.todo-edit-input {
+	width: 100%;
+	padding: 0.45rem 0.6rem;
+	border: 1px solid #cbd5e1;
+	border-radius: 0.375rem;
+	outline: none;
+	background: rgba(255, 255, 255, 0.9);
+}
+.todo-edit-input:focus {
+	border-color: #6366f1;
+	box-shadow: 0 0 0 3px rgba(99,102,241,0.12);
+}
+
+/* Base page styles */
+html, body, #root { height: 100%; }
+body {
+	background: #f8fafc; /* slate-50 */
+	color: #0f172a; /* slate-900 */
+	font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
