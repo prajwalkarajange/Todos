@@ -1,33 +1,98 @@
-# Todos App (React + Vite + Tailwind)
+# 📝 React Todo Application
 
-Simple, clean Todo app built with React and Vite.
+A simple and responsive Todo Application built with React that helps users organize and manage their daily tasks efficiently.
 
-## Run locally
+## 🚀 Live Demo
+
+🔗 https://prajwalkarajange.github.io/Todos/
+
+## ✨ Features
+
+- Add new tasks
+- Mark tasks as completed
+- Delete tasks
+- Responsive design
+- Fast and user-friendly interface
+
+## 🛠️ Technologies Used
+
+- React.js
+- Vite
+- JavaScript (ES6+)
+- Tailwind CSS
+- HTML5
+- CSS3
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/PrajwalKarajange/Todos.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd Todos
+```
+
+Install dependencies:
 
 ```bash
 npm install
+```
+
+Start the development server:
+
+```bash
 npm run dev
 ```
 
-## Build
+## 🎯 Usage
 
-```bash
-npm run build
+1. Enter a task in the input field.
+2. Click the **Add** button to create a new task.
+3. Mark tasks as completed when finished.
+4. Delete tasks when they are no longer needed.
+
+## 📁 Project Structure
+
+```text
+Todos/
+├── src/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css
+│   └── tailwind.css
+├── index.html
+├── package.json
+└── vite.config.js
 ```
 
-## Deploy to GitHub Pages
+## 📸 Screenshot
 
-This project is already configured for automatic GitHub Pages deployment using GitHub Actions.
+Add a screenshot of the application here:
 
-1. Push this folder to a GitHub repository.
-2. Make sure the default branch is `main`.
-3. In GitHub: `Settings -> Pages -> Build and deployment -> Source = GitHub Actions`.
-4. Push to `main` (or run the workflow manually from the Actions tab).
+```markdown
+![Todo Application](./src/assets/screenshot.png)
+```
 
-After deployment, your live link will be:
+## 🔮 Future Enhancements
 
-`https://<your-github-username>.github.io/<your-repo-name>/`
+- Edit existing tasks
+- Task priorities
+- Due dates and reminders
+- Dark mode support
+- Drag and drop task management
 
-Example:
+## 👨‍💻 Author
 
-`https://prajwal123.github.io/todos/`
+**Prajwal Karajange**
+
+GitHub: https://github.com/PrajwalKarajange
+
+## 📄 License
+
+This project is licensed under the MIT License.
