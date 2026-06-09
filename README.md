@@ -72,12 +72,9 @@ Todos/
 ```
 
 ## 📸 Screenshot
-
 Add a screenshot of the application here:
 
-```markdown
-![Todo Application](./src/assets/screenshot.png)
-```
+![Todo App Screenshot](./src/assets/project-screenshot.png)
 
 ## 🔮 Future Enhancements
 
